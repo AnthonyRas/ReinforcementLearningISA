@@ -1,0 +1,19 @@
+{
+    "CartPole-v1" : {
+        "gravity" : {"val" : 9.8, "type" : "real", "lo" : 0.98, "hi" : 18.62},
+        "masscart" : {"val" : 1.0, "type" : "real", "lo" : 0.1, "hi" : 1.9},
+        "masspole" : {"val" : 0.1, "type" : "real", "lo" : 0.01, "hi" : 0.19},
+        "length" : {"val" : 0.5, "type" : "real", "lo" : 0.05, "hi" : 0.95},
+        "force_mag" : {"val" : 10.0, "type" : "real", "lo" : 1.0, "hi" : 19.0}
+    },
+    "MountainCar-v0" : {
+        "goal_position" : {"val" : 0.5, "type" : "real", "lo" : 0.05, "hi" : 0.6},
+        "force" : {"val" : 0.001, "type" : "real", "lo" : 0.0005, "hi" : 0.005},
+        "gravity" : {"val" : 0.0025, "type" : "real", "lo" : 0.00025, "hi" : 0.01}
+    },
+    "LunarLander-v2" : {
+        "scale" : {"val" : 30.0, "type" : "real", "lo" : 10.0, "hi" : 50.0},
+        "initial_random" : {"val" : 1000.0, "type" : "real", "lo" : 0.0, "hi" : 2000.0},
+        "engine_power_mult" : {"val" : 1.0, "type" : "real", "lo" : 0.3, "hi" : 1.7}
+    }
+}
